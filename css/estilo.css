@@ -1,0 +1,309 @@
+@charset 'utf-8';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#geral{
+    position: absolute;
+    width: 100%;
+    height: 360%;
+    background-color: #101010;
+}
+
+#topo{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navegacao{
+    width: 70%;
+    height: 23%;
+    margin-top: 10px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navegacao ul{
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#navegacao ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#banner{
+    width: 100%;
+    height: 70%;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+#corpo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#equipe{
+    width: 100%;
+    height: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#equipe h2{
+    height: 10%;
+    margin: 20px;
+    color: white;
+    font-size: 2rem;
+}
+
+#caixas-coloridas{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.funcionarios{
+    width: 22%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.funcionarios p{
+    margin: 0% 15% 12% 15%;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.funcionarios img{
+    height: 20%;
+    border-radius: 50%;
+}
+
+#funcionario-1{
+    background-color: #C14000;
+}
+
+#funcionario-2{
+    background-color: #009987;
+}
+
+#funcionario-3{
+    background-color: #FFAA00;
+}
+
+.funcionarios a{
+    width: 80%;
+    height: 15%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.btn-linkedin{
+    width: 100%;
+    height: 100%;
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#nosso-negocio{
+    height: 17%;
+    width: 83%;
+    margin: 7%;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+}
+
+#nosso-negocio img{
+    height: 100%;
+}
+
+#nosso-negocio-texto{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#nosso-negocio-texto h2, p{
+    margin: 2% 7% 2% 7%;
+    color: white;
+}
+
+#nosso-negocio-texto p{
+    font-size: 0.85rem;
+    color: rgb(148, 148, 148);
+}
+
+#nosso-negocio-texto a{
+    width: 25%;
+    height: 20%;
+    margin-top: 5%;
+}
+
+#btn-leia-mais{
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(114, 114, 114);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#projetos-recentes{
+    height: 66%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#projetos-recentes h2{
+    font-size: 2rem;
+}
+
+#projetos-recentes p{
+    margin: 2% 30% 3% 30%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#imagens-projetos{
+    height: 60%;
+    width: 65%;
+    margin: 3% 0% 4% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#imagens-projetos span{
+    height: 49.5%;
+    width: 30%;
+}
+
+#img-1{
+    background-image: url(../img/portfolio1.jpg);
+    background-position: center;
+    background-size: 150%;
+}
+
+#img-2{
+    background-image: url(../img/portfolio2.jpg);
+    background-position: center;
+    background-size: 150%;
+}
+
+#img-3{
+    background-image: url(../img/portfolio3.jpg);
+    background-position: center;
+    background-size: 150%;
+}
+
+#img-4{
+    background-image: url(../img/portfolio4.jpg);
+    background-position: center;
+    background-size: 150%;
+}
+
+#img-5{
+    background-image: url(../img/portfolio5.jpg);
+    background-position: center;
+    background-size: 150%;
+}
+
+#img-6{
+    background-image: url(../img/portfolio6.jpg);
+    background-position: center;
+    background-size: 150%;
+}
+
+#projetos-recentes a{
+    width: 12%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+#btn-veja-mais{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(114, 114, 114);
+    color: white;
+}
+
+#rodape{
+    width: 100%;
+    height: 3%;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#rodape address{
+    color: white;
+    margin-left: 8%;
+}
+
+#rodape ul{
+    width: 30%;
+    list-style: none;
+    display: flex;
+}
+
+#rodape ul li{
+    width: 20%;
+}
+
+#rodape ul li a{
+    color: white;
+}
+
